@@ -1,0 +1,18 @@
+welcome: Welcome to VMAX Alexa. I am going to list out the arrays in your environment. Ready?
+
+array: There are {{ amount }} VMAX arrays in your environment. These are {{ array_list }}.
+       Select an array by stating its corresponding position in the list.
+       Which array would you like to query?
+
+indexerror: Sorry, that index was not recognised. Would you like to try again?
+
+alerts: There are {{ array_alert_num }} total unacknowledged alerts, including {{ server_unacknowledged }}
+        server alerts, for the given VMAX. If you would like the details of these alerts, say alerts.
+        If not, say no or goodbye. What is your choice?
+
+no_alerts: There are no alerts for your chosen array. Would you like to choose another array?
+
+alert_details: The details of the selected alerts are as follows {{ alert_list }}.
+               Would you like to choose another array?
+
+goodbye: Goodbye and thank you.

@@ -1,0 +1,22 @@
+{
+  "intents": [
+  {
+  "intent": "YesIntent"
+  },
+  {
+  "intent": "ChooseArrayIntent",
+  "slots": [
+        {
+          "name": "index",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ListAlertsIntent"
+    },
+    {
+      "intent": "GoodbyeIntent"
+    }
+  ]
+}
