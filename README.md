@@ -22,32 +22,9 @@ Leave the "Skill Type" set to "Custom Interaction Model"
 Enter "Array Alerts" (without quotes) for both the "Name" and "Invocation Name" fields.
 
 - Interaction Model Settings
-Copy the JSON below into the "Intent Schema" field. Don't worry about "Custom Slot Types".
+Copy the contents of the intent_schema.json into the "Intent Schema" field. Don't worry about "Custom Slot Types".
 
-{
-  "intents": [
-    {
-      "intent": "YesIntent"
-    },
-    {
-      "intent": "ChooseArrayIntent",
-      "slots": [
-        {
-          "name": "index",
-          "type": "AMAZON.NUMBER"
-        }
-      ]
-    },
-    {
-      "intent": "ListAlertsIntent"
-    },
-    {
-      "intent": "GoodbyeIntent"
-    }
-  ]
-}
-
-Copy the statements below into the "Sample Utterances" field.
+Copy the statements below into the "Sample Utterances" field:
 
 YesIntent yes
 
