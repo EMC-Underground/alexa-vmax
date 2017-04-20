@@ -13,6 +13,7 @@ You can clone this repository. To configure the code for your own environment, e
 In terminal, type "python array_alerts.py".
 In a new terminal, cd into the location of ngrok and type "$ ./ngrok http 5000 " on Unix/Mac/Linux or "ngrok.exe http 5000" on windows.
 Make a note of the HTTPS endpoint which is forwarding to localhost:5000 (e.g. https://20ba2c6f.ngrok.io ).
+The localhost must be able to contact the Unisphere server.
 
 4. Configure the Alexa skill
 Make sure you're logged into your Amazon developer account, and go to your list of Alexa skills. Click the "Add a New Skill" button. Configure each section as outlined below:
@@ -69,4 +70,5 @@ Alexa - "The details of the selected alerts are as follows: 0. Alert description
 You - "No"
 Alexa - "Goodbye and thank you."
 
-# See https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development 
+
+See https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development 
