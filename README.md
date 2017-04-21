@@ -4,7 +4,7 @@ Sample Python app to get started on connecting an Alexa device to a VMAX. Initia
 # Setup and testing
 1. Install requirements
 Ensure you have Python installed. Using pip, install Flask-Ask (pip install flask-ask).
-Install ngrok (a command-line program that opens a secure tunnel to localhost and exposes that tunnel behind an HTTPS endpoint) and unzip.
+Install ngrok (a command-line program that opens a secure tunnel to localhost and exposes that tunnel behind an HTTPS endpoint) and unzip (https://ngrok.com/download).
 
 2. Grab the code
 You can clone this repository. To configure the code for your own environment, edit lines 6 and 7 in the vmax_requests file to reflect your own Unisphere server details.
@@ -49,11 +49,11 @@ Enter the HTTPS endpoint from ngrok into the textfield.
 Don't bother with "Account Linking".
 
 - SSL Certificate Settings
-It's important to choose the second radio button with the label because that's what ngrok uses.
-
-My development endpoint is a subdomain of a domain that has a wildcard certificate from a certificate authority.
+It's important to choose the second radio button with the label because that's what ngrok uses: 
+"My development endpoint is a subdomain of a domain that has a wildcard certificate from a certificate authority."
 
 We don't need to go through any other screens. Simply make sure the information on all sections above are saved.
+
 5. Testing the skill
 You can test the skill using any Alexa-enabled device associated with your account, using the interactive text prompt in the app portal, or using EchoSim.io .
 Try the following sequence to test the app:
