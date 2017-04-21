@@ -55,7 +55,7 @@ It's important to choose the second radio button with the label because that's w
 We don't need to go through any other screens. Simply make sure the information on all sections above are saved.
 
 5. Testing the skill
-You can test the skill using any Alexa-enabled device associated with your account, using the interactive text prompt in the app portal, or using EchoSim.io .
+You can test the skill using any Alexa-enabled device associated with your account; using the interactive text prompt in the app portal; or using EchoSim.io .
 Try the following sequence to test the app:
 
 You - "Alexa, start array alerts"
